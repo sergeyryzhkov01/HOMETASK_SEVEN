@@ -6,7 +6,7 @@ int main() {
     setlocale(LC_CTYPE, "RUS");
     int num;
 
-    printf("Введите число от 1 до 12: ");
+    printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РѕС‚ 1 РґРѕ 12: ");
     scanf("%d", &num);
 
     switch (num) {
@@ -22,7 +22,7 @@ int main() {
     case 10: printf("X\n"); break;
     case 11: printf("XI\n"); break;
     case 12: printf("XII\n"); break;
-    default: printf("Ошибка: число должно быть от 1 до 12\n");
+    default: printf("РћС€РёР±РєР°: С‡РёСЃР»Рѕ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РѕС‚ 1 РґРѕ 12\n");
     }
 
     return 0;
